@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c2d6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Stuff */
+
+#body {
+    height: 500px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Calculator */
+
+#calculator {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Input Screens */
+
+#displays {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#displays div {
+    width: 95%;
+    background-color: black;
+    text-align: right;
+    border: none;
+    font-family: Share Tech Mono, sans;
+}
+
+#formulascreen {
+    color: orange;
+    font-size: 20px;
+}
+
+#display {
+    color: white;
+    font-size: 25px;
+}
+
+/* Buttons */
+
+#buttons {
+    height: 80%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+button {
+    font-family: Share Tech Mono, sans;
+    font-size: larger;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+
+.AC {
+    width: calc(100%/2);
+    height: calc(100%/5);
+    background-color: crimson;
+}
+
+.operator {
+    width: calc(100%/4);
+    height: calc(100%/5);
+    background-color: #666666;
+}
+
+.number {
+    width: calc(100%/4);
+    height: calc(100%/5);
+    background-color: #4D4D4D;
+}
+
+.zero {
+    width: calc(100%/2);
+    height: calc(100%/5);
+    background-color: #4D4D4D;
+    margin-top: calc(-100%/5 + 8px);
+
+}
+
+.equals {
+    width: calc(100%/4);
+    height: calc(200%/5);
+    background-color: #004466;
+}
+
+.decimal {
+    width: calc(100%/4);
+    height: calc(100%/5);
+    background-color: #4D4D4D;
+    margin-top: calc(-100%/5 + 8px);
+}
+
+button:hover {
+    color: black;
+    border: 2px solid rgb(169, 160, 160);
+}
+
+/* Name/Author */
+.name {
+    font-family: Share Tech Mono, sans;
+    font-size: 25px;
+    color: darkmagenta;
+    text-align: center;
+    height: 20%;
+}
+
+h6 {
+    line-height: 1.5;
+    text-decoration: solid;
+    font-size: 24px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}

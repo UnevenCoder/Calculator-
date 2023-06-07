@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/UnevenCoder/Calculator-#readme",
   "dependencies": {
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.12.0"
