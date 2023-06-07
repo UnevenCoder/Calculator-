@@ -1,0 +1,36 @@
+{
+  "name": "calculator-",
+  "version": "1.0.0",
+  "description": "Objective: Build an app that is functionally similar to this: https://javascript-calculator.freecodecamp.rocks/.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "eslint": "eslint \"src/**/*.{js,jsx}\" --quiet --fix  ",
+    "format": "prettier --write\"src/**/*.{js,jsx}\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnevenCoder/Calculator-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnevenCoder/Calculator-/issues"
+  },
+  "homepage": "https://github.com/UnevenCoder/Calculator-#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vite": "^4.3.9"
+  }
+}
